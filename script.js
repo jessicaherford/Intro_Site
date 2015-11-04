@@ -1,13 +1,19 @@
 $( document ).ready(function() {
 
-   // $('.divOne').hide();
-   // $('.divOne').show("slide"), ({ direction: "right" }, 25000);
-  
+   $('.section').mouseenter(function() {
+     $(this).css('border-style', 'double');
+   });
 
-    //$('.divTwo').hide();
-    //$('.divTwo').show("slide"), ({ direction: "left"}, 25000);
+   $('.section').mouseleave(function() {
+     $(this).css('border-style', 'solid');
+   })
 
-   // $('.divThree').hide();
-   // $('.divThree').show("slide"), ({ direction: "right"}, 25000);
+   $('button').click(function(){
+     $('html').css('background-color', 'black');
+     $('.section').css('border-color', 'white');
+     $('h1').css('color', 'white');
+     $('p').css('color', 'white');
+   })
+
 
 });
