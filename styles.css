@@ -50,17 +50,60 @@ table {
 
 /* Start of my CSS */
 
-h1{
-  font-size:55px;
+h2{
+  font-size: 140px;
+  color: #722364;
+  text-shadow: 1px 2px #A2A3BB;
   font-family: 'Josefin Sans', sans-serif;
-  padding: 20px;
+  margin: 40px 0px 40px 0px;
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
 }
 
-
-h2{
-  font-size: 100px;
+h3{
+  font-size: 140px;
   color: #722364;
-  text-shadow: 2px 2px #A2A3BB;
+  text-shadow: 2px 4px #A2A3BB;
+  font-family: 'Josefin Sans', sans-serif;
+  float: left;
+}
+
+button{
+  height: 50px;
+  width: 150px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 25%;
+  margin-right: 45%;
+  margin-top: 20px;
+}
+
+.main{
+  margin-left: 15%;
+}
+
+.square1{
+  float: left;
+  padding: 50px;
+
+}
+
+.square2{
+  float: left;
+  padding: 50px;
+}
+
+.square3{
+  float: left;
+  padding: 50px;
+}
+.square4{
+  float:left;
+  padding: 50px;
 }
 
 p{
@@ -74,7 +117,7 @@ p{
   border-style: solid;
   margin-top: 50px;
   height: 400px;
-  font-family: 'Playfair', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .section p{
@@ -108,7 +151,7 @@ img{
 }
 hr{
   width:455px;
-  margin-top: 25px;
+  margin-top: 5px;
   margin-bottom: 25px;
   height: 5px;
   background-color:black;
@@ -118,15 +161,25 @@ hr{
   width: 1000px;
 }
 
-html{
-  margin: 25px 0px 25px 0px;
+
+.header{
+  margin: 25px 25px 25px 25px;
   text-align: center;
+  border-style: double;
+  border-width: 100px;
+  border-color: black;
+  border-right-color: white;
+  border-left-color: white;
 
 }
-.info{
-
+body{
+  text-align: center;
 }
 
 a{
   text-decoration: none;
+}
+li{
+  display: inline-block;
+  margin: 10px 50px 10px 50px;
 }
