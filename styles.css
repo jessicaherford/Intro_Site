@@ -78,12 +78,14 @@ button{
   border-color: black;
   border-style: solid;
   margin-left: 25%;
-  margin-right: 45%;
+  margin-right: 25%;
   margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
 }
 
 .main{
-  margin-left: 15%;
+  display: inline-block;
 }
 
 .square1{
@@ -124,25 +126,6 @@ p{
   font-family: 'Playfair Display', serif;
 }
 
-#sectionOne{
-  margin-left: -25%;
-  margin-right: -25%;
-  display: inline-block;
-}
-
-#sectionTwo{
-  float: center;
-  margin-left: -50%;
-  margin-right: -50%;
-}
-
-#sectionThree{
-  float: center;
-  margin-left: -50%;
-  margin-right: -50%;
-}
-
-
 img{
   height: 300px;
   margin-bottom: 30px;
@@ -179,7 +162,15 @@ body{
 a{
   text-decoration: none;
 }
+
 li{
   display: inline-block;
-  margin: 10px 50px 10px 50px;
+  margin: 0px 90px 0px 90px;
+  font-size: 20px;
+}
+a:hover{
+  background-color: #A2A3BB;
+  border-color: black;
+  border-style: solid;
+  border-radius: 50%;
 }
